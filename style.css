@@ -26,9 +26,11 @@ nav{
     z-index:1000;
 }
 
-.logo h2{
+.logo a{
     color:#fff;
+    text-decoration:none;
     font-size:28px;
+    font-weight:700;
 }
 
 .nav-links{
@@ -163,6 +165,8 @@ section{
     color:#0d6efd;
 }
 
+
+
 /* Pricing */
 
 .pricing-container{
@@ -172,30 +176,45 @@ section{
 }
 
 .price-card{
-    background:white;
+    background:#ffffff;
     text-align:center;
     border-radius:15px;
     padding:40px;
     box-shadow:0 5px 18px rgba(0,0,0,.08);
+    transition:0.3s;
 }
 
-.price-card h2{
-    color:#0d6efd;
+.price-card:hover{
+    transform:translateY(-8px);
+}
+
+.price-card h3{
+    font-size:24px;
+    color:#222;
+    margin-bottom:15px;
+}
+
+.price{
+    font-size:38px;
+    font-weight:700;
+    color:#0056d6;
     margin:20px 0;
 }
 
 .price-card ul{
     list-style:none;
     margin:25px 0;
+    padding:0;
 }
 
 .price-card li{
     margin:12px 0;
+    color:#444;
 }
 
 .price-card button{
-    background:#0d6efd;
-    color:white;
+    background:#0056d6;
+    color:#ffffff;
     border:none;
     padding:12px 28px;
     border-radius:8px;
@@ -204,9 +223,8 @@ section{
 }
 
 .price-card button:hover{
-    background:#084298;
+    background:#003f9e;
 }
-
 /* Contact */
 
 form{
