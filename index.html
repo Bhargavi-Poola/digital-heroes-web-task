@@ -51,7 +51,11 @@
         </div>
 
         <div class="hero-image">
-            <img src="images/hero.png" alt="Digital Agency">
+           <img src="images/hero.jpg"
+     alt="NorthPeak Digital team working on a website"
+     loading="lazy"
+     width="500"
+     height="350">
         </div>
 
     </section>
@@ -204,32 +208,38 @@
 
     <!-- Contact -->
 
-    <section id="contact">
+   <section id="contact">
 
-        <h2 class="section-title">Contact Us</h2>
+    <h2 class="section-title">Contact Us</h2>
 
-        <form id="contactForm">
+    <form id="contactForm">
 
-            <input
-                type="text"
-                id="name"
-                placeholder="Your Name">
+        <label for="name">Name</label>
+        <input
+            type="text"
+            id="name"
+            placeholder="Your Name"
+            required>
 
-            <input
-                type="email"
-                id="email"
-                placeholder="Your Email">
+        <label for="email">Email</label>
+        <input
+            type="email"
+            id="email"
+            placeholder="Your Email"
+            required>
 
-            <textarea
-                id="message"
-                rows="6"
-                placeholder="Your Message"></textarea>
+        <label for="message">Message</label>
+        <textarea
+            id="message"
+            rows="6"
+            placeholder="Your Message"
+            required></textarea>
 
-            <button type="submit">Send Message</button>
+        <button type="submit">Send Message</button>
 
-        </form>
+    </form>
 
-    </section>
+</section>
 
     <!-- Footer -->
 
