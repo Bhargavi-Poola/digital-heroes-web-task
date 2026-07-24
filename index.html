@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+content="NorthPeak Digital is a modern digital agency providing web development, SEO, UI/UX design and digital marketing services.">
     <title>NorthPeak Digital</title>
 
     <link rel="stylesheet" href="style.css">
@@ -21,8 +23,8 @@
 
     <nav>
         <div class="logo">
-            <h2>NorthPeak Digital</h2>
-        </div>
+    <a href="#home">NorthPeak Digital</a>
+</div>
 
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
@@ -32,7 +34,7 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-
+<main>
     <!-- Hero -->
 
     <section id="home" class="hero">
@@ -51,11 +53,12 @@
         </div>
 
         <div class="hero-image">
-           <img src="images/hero.jpg"
-     alt="NorthPeak Digital team working on a website"
-     loading="lazy"
+           <img src="images/hero.webp"
+     alt="NorthPeak Digital team working on digital solutions"
      width="500"
-     height="350">
+     height="350"
+     loading="eager"
+     fetchpriority="high">
         </div>
 
     </section>
@@ -148,67 +151,74 @@
 
     <!-- Pricing -->
 
-    <section id="pricing">
+    <!-- Pricing -->
 
-        <h2 class="section-title">Pricing Plans</h2>
+<section id="pricing">
 
-        <div class="pricing-container">
+    <h2 class="section-title">Pricing Plans</h2>
 
-            <div class="price-card">
+    <div class="pricing-container">
 
-                <h3>Basic</h3>
+        <!-- Basic -->
 
-                <h2>$99</h2>
+        <div class="price-card">
 
-                <ul>
-                    <li>1 Website</li>
-                    <li>Email Support</li>
-                    <li>Basic SEO</li>
-                </ul>
+            <h3>Basic</h3>
 
-                <button>Choose Plan</button>
+            <p class="price">$99</p>
 
-            </div>
+            <ul>
+                <li>1 Website</li>
+                <li>Email Support</li>
+                <li>Basic SEO</li>
+            </ul>
 
-            <div class="price-card">
-
-                <h3>Pro</h3>
-
-                <h2>$199</h2>
-
-                <ul>
-                    <li>5 Pages</li>
-                    <li>Priority Support</li>
-                    <li>Advanced SEO</li>
-                </ul>
-
-                <button>Choose Plan</button>
-
-            </div>
-
-            <div class="price-card">
-
-                <h3>Enterprise</h3>
-
-                <h2>$399</h2>
-
-                <ul>
-                    <li>Unlimited Pages</li>
-                    <li>24/7 Support</li>
-                    <li>Marketing</li>
-                </ul>
-
-                <button>Choose Plan</button>
-
-            </div>
+            <button>Choose Plan</button>
 
         </div>
 
-    </section>
+        <!-- Pro -->
+
+        <div class="price-card">
+
+            <h3>Pro</h3>
+
+            <p class="price">$199</p>
+
+            <ul>
+                <li>5 Pages</li>
+                <li>Priority Support</li>
+                <li>Advanced SEO</li>
+            </ul>
+
+            <button>Choose Plan</button>
+
+        </div>
+
+        <!-- Enterprise -->
+
+        <div class="price-card">
+
+            <h3>Enterprise</h3>
+
+            <p class="price">$399</p>
+
+            <ul>
+                <li>Unlimited Pages</li>
+                <li>24/7 Support</li>
+                <li>Marketing Support</li>
+            </ul>
+
+            <button>Choose Plan</button>
+
+        </div>
+
+    </div>
+
+</section>
 
     <!-- Contact -->
-
-   <section id="contact">
+<section id="contact">
 
     <h2 class="section-title">Contact Us</h2>
 
@@ -240,8 +250,8 @@
     </form>
 
 </section>
-
-    <!-- Footer -->
+   </main>
+<!-- Footer -->
 
     <footer>
 
